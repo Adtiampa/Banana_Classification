@@ -5,46 +5,52 @@
 This project demonstrates how to **classify banana ripeness** (unripe, ripe, overripe, rotten) using a **deep learning model** built on top of **MobileNetV2**. By applying **data augmentation**, splitting data into **training**, **validation**, and **testing** sets, and fine-tuning **hyperparameters**, the system achieves high accuracy in predicting the ripeness level of bananas.  
 
 ---
+# 🗂️ **Data Preparation**  
 
-## 🍌 Features
-
-- **Problem & Pain Point**  
-  - **Shortage of Bananas in Thailand** leading to a need for optimal usage.  
-  - **Human Subjectivity** in assessing color and softness, influenced by environmental conditions.  
-  - **Economic Losses** caused by inaccurate ripeness evaluation and spoilage.
-
-- **Data Preparation**  
-  - **Data Source**: Kaggle dataset and custom-collected images covering four ripeness categories.  
-  - **Data Cleaning**: Organizing images into separate folders by ripeness level.  
-  - **Data Transformation**: Standardizing image format (`.JPG`) for uniform processing.
-
-- **Model Training**  
-  - **MobileNetV2 Pre-trained** on ImageNet, then fine-tuned for this specific 4-class classification.  
-  - **Data Augmentation**: Rotation, zoom, shifting, shearing, flipping for enhanced robustness.  
-  - **Hyperparameters**: `rotation_range=100`, `epochs=13`, `optimizer='adam'`, and more.
-
-- **Model Testing**  
-  - **Evaluation**: Achieved up to **97.29%** accuracy.  
-  - **Validation Loss Monitoring** with **EarlyStopping** to avoid overfitting.
-
-- **Model Improvement**  
-  - **Identified Deficiencies**: Misclassification issues and version discrepancies (TensorFlow & Keras).  
-  - **Adjustments**: Switching data sources, refining image resolutions, ensuring environment consistency.
-
-- **Others (Optional)**  
-  - **Potential Real-time Web Deployment** for immediate ripeness detection and minimal human intervention.  
-  - **Further Extensions**: Integration with IoT sensors (temperature/humidity) to predict optimal harvest windows.
+- 🌐 **Data Source**: Kaggle dataset and custom-collected images covering four ripeness categories.  
+- 🧹 **Data Cleaning**: Organizing images into separate folders by ripeness level.  
+- 🔄 **Data Transformation**: Standardizing image format (`.JPG`) for uniform processing.  
 
 ---
 
-## 🍌 Prerequisites
+# ⚙️ **Model Training**  
 
-1. **Python 3.x**  
-2. **TensorFlow 2.x / Keras**  
-3. **NumPy & Pandas** for data handling  
-4. **Matplotlib & Seaborn** for visualizations  
-5. **Sklearn** for data splitting and performance metrics  
-6. **GPU Support** (optional but recommended for faster training)
+- 🤖 **MobileNetV2 Pre-trained** on ImageNet, then fine-tuned for this specific 4-class classification.  
+- 🤸 **Data Augmentation**: Rotation, zoom, shifting, shearing, flipping for enhanced robustness.  
+- 📈 **Hyperparameters**: `rotation_range=100`, `epochs=13`, `optimizer='adam'`, and more.  
+
+---
+
+# 🧪 **Model Testing**  
+
+- 🎯 **Evaluation**: Achieved up to **97.29%** accuracy.  
+- ⏱️ **Validation Loss Monitoring** with EarlyStopping to avoid overfitting.  
+
+---
+
+# 💡 **Model Improvement**  
+
+- 🐞 **Identified Deficiencies**: Misclassification issues and version discrepancies (TensorFlow & Keras).  
+- 🔧 **Adjustments**: Switching data sources, refining image resolutions, ensuring environment consistency.  
+
+---
+
+# ✨ **Others (Optional)**  
+
+- ⚡ **Potential Real-time Web Deployment** for immediate ripeness detection and minimal human intervention.  
+- 🌐 **Further Extensions**: Integration with IoT sensors (temperature/humidity) to predict optimal harvest windows.  
+
+---
+
+# 🧰 **Prerequisites**  
+
+- 🐍 **Python 3.x**  
+- 🤖 **TensorFlow 2.x / Keras**  
+- 🏗 **NumPy & Pandas** for data handling  
+- 📊 **Matplotlib & Seaborn** for visualizations  
+- 🧪 **Sklearn** for data splitting and performance metrics  
+- 🚀 **GPU Support** (optional but recommended for faster training)
+
 
 ---
 
