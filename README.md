@@ -1,4 +1,4 @@
-# 🍌 1. State the Problem (2%)  
+# 🍌 1. State the Problem 
 
 ## 1.1 Problem and Pain Point
 - Currently, Thailand is experiencing a **banana 🍌 shortage**, leading to reduced banana production. Therefore, it is crucial to maximize the use of the limited banana supply. The **“Banana Tester” 🍌** was created to evaluate the ripeness level of bananas, as relying solely on human visual inspection of peel color and softness can be highly uncertain—subject to individual experience and environmental conditions. Moreover, fluctuating weather significantly affects the ripening rate, making it difficult to predict the ideal harvest time. Overripe or under-ripe bananas cannot be sold, resulting in economic losses, potential taste changes, and higher spoilage risks. Additionally, inconsistent ripeness levels among bananas increase labor and time spent sorting.  
@@ -17,7 +17,7 @@
 
 ---
 
-# 🍌 2. Data Preparation (2%)
+# 🍌 2. Data Preparation
 
 ## 2.1 Data Source
 - Bananas with four different ripeness levels (**unripe**, **ripe**, **overripe**, **rotten**) were obtained from:
@@ -32,7 +32,7 @@
 
 ---
 
-# 🍌 3. Training (1.5%)
+# 🍌 3. Training
 
 ## 3.1 AI Model
 - **Supervised Learning: Classification**  
@@ -85,7 +85,7 @@
 
 ---
 
-# 🍌 4. Testing (1.5%)
+# 🍌 4. Testing 
 
 ## 4.1 Evaluation
 
@@ -98,7 +98,7 @@
 
 ---
 
-# 🍌 5. Model Improvement (5%)
+# 🍌 5. Model Improvement
 
 ## 5.1 Model Deficiencies
 - Some instances were misclassified, with the model predicting the opposite class from reality. 😅 This issue appeared during the initial training phase. Also, version discrepancies (e.g., TensorFlow 2.12.0 vs. 2.17.0, and Keras 3.6.0) contributed to training complications.
