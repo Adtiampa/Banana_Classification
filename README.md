@@ -1,6 +1,6 @@
 # 🍌 Banana Tester - AI-based Banana Ripeness Classification
 
-![Project Banner]([image-banana.jpeg])
+![Banner](image-banana.jpeg)
 
 This project demonstrates how to **classify banana ripeness** (unripe, ripe, overripe, rotten) using a **deep learning model** built on top of **MobileNetV2**. By applying **data augmentation**, splitting data into **training**, **validation**, and **testing** sets, and fine-tuning **hyperparameters**, the system achieves high accuracy in predicting the ripeness level of bananas.  
 
